@@ -18,12 +18,15 @@ html {
 }
 
 body {
+  height: 100vh;
   font-family: "Inter", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--clr-offblack);
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 img, picture, video, canvas, svg {
@@ -36,6 +39,14 @@ input, button, textarea, select {
 }
 
 .profile {
-  height: 600px;
-  width: 250px;
+  background-color: var(--clr-darkgrey);
+  height: 700px;
+  width: 500px;
+  
+
+}
+
+.profile__image {
+  border-radius: 50%;
+  margin: 1rem auto;
 }
